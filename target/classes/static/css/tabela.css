@@ -1,7 +1,28 @@
-table{
-    width: 100%;
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.apagar{
+    color: black;
+}
+.editar{
+    color: black;
+}
+.adicionar{
+    color: black;
+}
+.apagar:hover{
+    color: red;
+}
+.editar:hover{
+    color: green;
+}
+.adicionar:hover{
+    color: blueviolet;
+}
+h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-}
-th{
-    width: 100%;
-}
