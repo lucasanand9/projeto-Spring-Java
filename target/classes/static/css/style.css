@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cambria;
+    background-color: #DCDCDC;
+}
+a{
+    text-decoration: none;
+    color: #DCDCDC;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 75%;
+    height: auto;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .parent-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5vh;
+    }
+    
+    .div1-card { 
+        grid-area: 1 / 1 / 2 / 2;
+        
+    }
+    .div2-card { 
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .div3-card { 
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    .div4-card { 
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    .div5-card { 
+        grid-area: 2 / 2 / 3 / 3;  
+    }
+    .div6-card { 
+        grid-area: 2 / 3 / 3 / 4; 
+    }
+    .img1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            
+    }
+    .img2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .img3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .img4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+    }
+    .img5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .img6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }   
+    .informacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    } 
+    .tabela{
+        width: 100%;
+    }
+    @media only screen and (max-width: 880px) {
+        .parent-card {
+            display: block;
+            }
+            .img2{
+                margin-top: 2vh;
+            } 
+            .img3{
+                margin-top: 2vh;
+            }   
+            .img4{
+                margin-top: 2vh;
+            }
+            .img5{
+                margin-top: 2vh;
+            }
+            .img6{
+                margin-top: 2vh;
+            }
+      }
+    
