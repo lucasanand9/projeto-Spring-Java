@@ -22,7 +22,7 @@
             <h2>Funcionário</h2>
         </div>
   
-        <div th:if="${isSaved}" class="alert alert-success" >
+        <div th:if="${isSaved}" class="alert alert-success">
           <h4>Operação realizada com sucesso!</h4>         
         </div>
   
@@ -36,27 +36,27 @@
         method="post" class="formulario"
         th:object="${funcionario}">
           <div class="form-floating mb-3">
-            <input type="number" th:field="*{id}" readonly class="form-control" id="floatingInputId" placeholder="Código" required>
+            <input type="number" th:field="*{id}" readonly class="form-control" id="floatingInputId" placeholder="Código">
             <label for="floatingInputId">Código</label>
           </div>
   
           <div class="form-floating mb-3">
-            <input type="text" th:field="*{nome}" class="form-control" id="floatingInputNome" placeholder="Nome" required>
+            <input type="text" th:field="*{nome}" class="form-control" id="floatingInputNome" placeholder="Nome">
             <label for="floatingInputNome">Nome</label>
           </div>
   
           <div class="form-floating mb-3">
-            <input type="text" th:field="*{cpf}" class="form-control" id="floatingInputCpf" placeholder="CPF" required>
+            <input type="text" th:field="*{cpf}" class="form-control" id="floatingInputCpf" placeholder="CPF">
             <label for="floatingInputCpf">CPF</label>
           </div>
   
           <div class="form-floating mb-3">
-            <input type="email" th:field="*{email}" class="form-control" id="floatingInputEmail" placeholder="E-mail" required>
+            <input type="email" th:field="*{email}" class="form-control" id="floatingInputEmail" placeholder="E-mail">
             <label for="floatingInputEmail">E-mail</label>
           </div>
   
           <div class="form-floating mb-3">
-            <input type="text" th:field="*{telefone}" class="form-control" id="floatingInputTelefone" placeholder="Telefone" required>
+            <input type="text" th:field="*{telefone}" class="form-control" id="floatingInputTelefone" placeholder="Telefone">
             <label for="floatingInputNome">Telefone</label>
           </div>
   
